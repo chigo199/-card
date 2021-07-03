@@ -1,3 +1,3 @@
 # -card
 calm
-i like :football: :pizza:
+i like :football: :pizza:, :reading:
