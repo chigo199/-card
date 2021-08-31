@@ -26,11 +26,10 @@ Git is actually the technology that github and gitpod are built on.
 ##### Other sources used
 www.gymgroup.com
 www.pexels.com
- https://thumbs.dreamstime.com/z/glacier-water-vending-machine-outside-convenient-store-147417533.jpghttps://www.volusion.com/
  https://www.volusion.com/blog/how-to-build-an-about-us-page-with-examples/
  blog/how-to-build-an-about-us-page-with-examples/
  www.w3schools.com 
- 
+
 
 ###### Deployment  
 
