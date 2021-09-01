@@ -22,15 +22,12 @@ font awesome https://fontawesome.com/v5.15/icons/bootstrap
 This project utitlises github to store the source code in a repository and to showcase the gym to the public https://github.com/    
 Gitpod is the site that generates the workspace and coding environment.
 Git is actually the technology that github and gitpod are built on.
-
-##### Other sources used
 www.gymgroup.com
 www.pexels.com
  https://www.volusion.com/blog/how-to-build-an-about-us-page-with-examples/
  blog/how-to-build-an-about-us-page-with-examples/
  www.w3schools.com 
-
-
-###### Deployment  
+ 
+##### Deployment  
 
 This project uses git for source control and all content was allocated to github. 
