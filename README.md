@@ -1,10 +1,8 @@
 # The aim of the project  
-
 The aim of this project will to be promote a new gym to encourage customers to join. The types of services it provides will also be mentioned as well to motivate them.
 
 ## The Users aims
-
-Th value it provdes to its users is that it can encourage them to improve their fitness which can imoprove their overall health.
+The value it provdes to its users is that it can encourage them to improve their fitness which can imoprove their overall health.
 
 ### Features 
 personal trainers   
