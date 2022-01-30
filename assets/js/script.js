@@ -19,13 +19,13 @@ Projects
 Wiki
 Security
 Insights
-love-maths-2.0-sourcecode/03-displaying-the-question-and-answer/04-updating-the-scores/assets/js/script.js /
+love-maths-2.0-sourcecode/04-multiplication-and-subtraction-questions/01-the-multiplication-game/assets/js/script.js /
 @AJGreaves
 AJGreaves Add missing semi-colons for jshint validation.
 Latest commit 44c1649 on 11 Jun 2021
  History
  1 contributor
-116 lines (86 sloc)  3.1 KB
+124 lines (93 sloc)  3.47 KB
    
 // Wait for the DOM to finish loading before running the game
 // Get the button elements and add event listeners to them
@@ -60,6 +60,8 @@ function runGame(gameType) {
 
     if (gameType === "addition") {
         displayAdditionQuestion(num1, num2);
+    } else if (gameType === "multiply") {
+        displayMultiplyQuestion(num1, num2);
     } else {
         alert(`Unknown game type: ${gameType}`);
         throw `Unknown game type: ${gameType}. Aborting!`;
@@ -101,6 +103,8 @@ function calculateCorrectAnswer() {
 
     if (operator === "+") {
         return [operand1 + operand2, "addition"];
+    } else if (operator === "x") {
+        return [operand1 * operand2, "multiply"];
     } else {
         alert(`Unimplemented operator ${operator}`);
         throw `Unimplemented operator ${operator}. Aborting!`;
@@ -140,6 +144,10 @@ function displaySubtractQuestion() {
 
 }
 
-function displayMultiplyQuestion() {
-    
+function displayMultiplyQuestion(operand1, operand2) {
+
+    document.getElementById('operand1').textContent = operand1;
+    document.getElementById('operand2').textContent = operand2;
+    document.getElementById('operator').textContent = "x";
+
 }
